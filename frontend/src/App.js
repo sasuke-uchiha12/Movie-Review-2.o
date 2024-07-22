@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import ReviewPage from './pages/Review';
 // import Review from './pages/Review';
 // import Single from './pages/Single';
 // import JoinUs from './pages/JoinUs';
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/review" element={<ReviewPage/>} />
           {/* <Route path="/review" element={<Review />} />
           <Route path="/single" element={<Single />} />
           <Route path="/joinus" element={<JoinUs />} /> */}

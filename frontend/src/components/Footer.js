@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Footer.css';
 
 function Footer() {
   return (
@@ -23,9 +24,9 @@ function Footer() {
               <h3 className="widget-title">Help Center</h3>
               <ul className="no-bullet">
                 <li>Our support community is always around to help</li>
-                <li style={{ fontSize: 'large' }}>Need more help? Visit the <a href="">official CINEPHILE
+                <li style={{ fontSize: 'large' }}>Need more help? Visit the <a href="https://validurl.com">official CINEPHILE
                   support community</a> powered by Team7</li>
-                <li>Issues logging into CINEPHILE? <a href="">Get login help.</a></li>
+                <li>Issues logging into CINEPHILE? <a href="https://validurl.com">Get login help.</a></li>
               </ul>
             </div>
           </div>
@@ -33,10 +34,10 @@ function Footer() {
             <div className="widget">
               <h3 className="widget-title">Social Media</h3>
               <ul className="no-bullet">
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Google+</a></li>
-                <li><a href="#">Pinterest</a></li>
+                <li><a href="https://facebook.com">Facebook</a></li>
+                <li><a href="https://twitter.com">Twitter</a></li>
+                <li><a href="https://plus.google.com">Google+</a></li>
+                <li><a href="https://pinterest.com">Pinterest</a></li>
               </ul>
             </div>
           </div>

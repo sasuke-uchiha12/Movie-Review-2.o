@@ -258,7 +258,7 @@ body {
   background-image: url(../img1/bg3.jpg);
   background-position: top center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size:contain;
   color: #84878d;
   font-family: "Roboto", "Open Sans", sans-serif;
   font-size: 15px;
