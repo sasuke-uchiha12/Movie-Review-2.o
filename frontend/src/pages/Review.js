@@ -1,20 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import '../styles/styles.css'; // Adjust the path if necessary
 
 const movies = [
   {
     id: 1,
     title: 'Avatar (2009)',
     description: 'A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.',
-    image: 'image/avatar1.jpg',
-    link: '/avatar_rev',
+    image: '/images/avatar1.jpg',
+    link: '/movie/1',
   },
   {
     id: 2,
     title: 'The Social Network (2010)',
     description: 'As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea and by the co-founder who was later squeezed out of the business.',
-    image: 'image/social_network.jpeg',
-    link: '/single',
+    image: '/images/social_network.jpeg',
+    link: '/movie/2',
   },
   // Add more movie objects here
 ];
