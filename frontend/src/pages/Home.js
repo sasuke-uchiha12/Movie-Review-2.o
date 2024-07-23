@@ -45,6 +45,8 @@ import React, { useEffect } from 'react';
 import slide1 from '../img1/your_name.png';
 import slide2 from '../img1/inception.jpg';
 import slide3 from '../img1/varisu.jpg'
+import pusha from '../img1/thumb-1.jpg'
+import master from '../img1/thumb-2.jpg'
 function Home() {
   useEffect(() => {
     // Ensure the jQuery code runs after the component mounts
@@ -65,9 +67,9 @@ function Home() {
             <div className="col-md-9">
               <div className="slider">
                 <ul className="slides">
-                  <li><a href="#"><img src={slide1} alt="Slide 1" /></a></li>
-                  <li><a href="#"><img src={slide2} alt="Slide 2" /></a></li>
-                  <li><a href="#"><img src={slide3} alt="Slide 3" /></a></li>
+                  <li><a href=""><img src={slide1} alt="Slide 1" /></a></li>
+                  <li><a href=""><img src={slide2} alt="Slide 2" /></a></li>
+                  <li><a href=""><img src={slide3} alt="Slide 3" /></a></li>
                 </ul>
               </div>
             </div>
@@ -75,12 +77,12 @@ function Home() {
               <div className="row">
                 <div className="col-sm-6 col-md-12">
                   <div className="latest-movie">
-                    <a href="#"><img src="image/thumb-1.jpg" alt="Movie 1" /></a>
+                    <a href=""><img src={pusha} alt="Movie 1" /></a>
                   </div>
                 </div>
                 <div className="col-sm-6 col-md-12">
                   <div className="latest-movie">
-                    <a href="#"><img src="image/thumb-2.jpg" alt="Movie 2" /></a>
+                    <a href=""><img src="image/thumb-2.jpg" alt="Movie 2" /></a>
                   </div>
                 </div>
               </div>
