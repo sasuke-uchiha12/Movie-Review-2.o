@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Movie-Review-2.o/static/css/main.ee87b31e.css",
+    "main.js": "/Movie-Review-2.o/static/js/main.cb60f69f.js",
+    "static/js/453.8ab44547.chunk.js": "/Movie-Review-2.o/static/js/453.8ab44547.chunk.js",
+    "static/media/bg3.jpg": "/Movie-Review-2.o/static/media/bg3.5921df78ac51b116d845.jpg",
+    "static/media/your_name.png": "/Movie-Review-2.o/static/media/your_name.8fac435b1e969687a1a9.png",
+    "static/media/inception.jpg": "/Movie-Review-2.o/static/media/inception.36d0783b958f451a2358.jpg",
+    "static/media/varisu.jpg": "/Movie-Review-2.o/static/media/varisu.ff099a0e7f5e285d8d5b.jpg",
+    "index.html": "/Movie-Review-2.o/index.html",
+    "main.ee87b31e.css.map": "/Movie-Review-2.o/static/css/main.ee87b31e.css.map",
+    "main.cb60f69f.js.map": "/Movie-Review-2.o/static/js/main.cb60f69f.js.map",
+    "453.8ab44547.chunk.js.map": "/Movie-Review-2.o/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee87b31e.css",
+    "static/js/main.cb60f69f.js"
+  ]
+}
