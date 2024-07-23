@@ -1,0 +1,57 @@
+/* ReviewForm Component Styles */
+.review-form-container .form-group {
+    display: flex;
+    align-items: center;
+}
+
+.review-form-container .form-group .input-group {
+    flex: 1;
+}
+
+/* .review-form-container .form-group .input-group-addon {
+    background-color: #007bff;
+    color: white;
+} */
+
+.review-form-container .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.review-form-container .btn {
+    background-color: #ffaa3c;
+    color: #92601e;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.review-form-container .btn:hover {
+    background-color: #0056b3;
+}
+
+.reviews {
+    margin-top: 30px;
+}
+
+.reviews .review {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* .reviews .review.positive {
+    border-left: 5px solid #4caf50;
+}
+
+.reviews .review.negative {
+    border-left: 5px solid #f44336;
+} */
+
+.reviews .review p {
+    margin: 0;
+}

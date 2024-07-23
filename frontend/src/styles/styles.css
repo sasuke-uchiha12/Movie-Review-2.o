@@ -2578,7 +2578,7 @@ ul li strong {
   vertical-align: middle;
 }
 
-.input-group-addon {
+/* .input-group-addon {
   width: 45px;
   padding: 0.5rem 0.75rem;
   margin-bottom: 0;
@@ -2590,7 +2590,7 @@ ul li strong {
   background-color: #eceeef;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
-}
+} */
 
 .btn {
   display: inline-block;

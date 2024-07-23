@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-
+import axios from 'axios';
 import '../styles/styles.css'; // Adjust the path if necessary
+import ReviewForm from '../components/ReviewForm';
+ // Import ReviewForm component
 
 const movies = [
   {
@@ -39,13 +41,44 @@ const movies = [
   // Add more movie objects here
 ];
 
+const sortReviews = (reviews) => {
+  return reviews.sort((a, b) => {
+    if (a.sentiment === 'positive' && b.sentiment !== 'positive') {
+      return -1;
+    }
+    if (a.sentiment !== 'positive' && b.sentiment === 'positive') {
+      return 1;
+    }
+    return 0;
+  });
+};
+
 const MovieDetail = () => {
   const { id } = useParams();
   const movie = movies.find(m => m.id === parseInt(id));
+  const [reviews, setReviews] = useState([]);
+
+  useEffect(() => {
+    const fetchReviews = async () => {
+      try {
+        const response = await axios.get(`http://localhost:5000/reviews/${id}`);
+        setReviews(sortReviews(response.data));
+      } catch (error) {
+        console.error('Error fetching reviews:', error);
+      }
+    };
+
+    fetchReviews();
+  }, [id]);
 
   if (!movie) {
     return <div>Movie not found</div>;
   }
+
+  const handleReviewSubmit = (newReview) => {
+    const updatedReviews = [newReview, ...reviews];
+    setReviews(sortReviews(updatedReviews));
+  };
 
   return (
     <div id="site-content">
@@ -92,16 +125,19 @@ const MovieDetail = () => {
               <h1 style={{ color: 'black' }}>Summaries</h1>
               <div className="entry-content">
                 <p>{movie.details.summary}</p>
-                <div className="pinfo">Write your own review.</div>
-                <div className="form-group">
-                  <div className="col-md-4 inputGroupContainer">
-                    <div className="input-group">
-                      <span className="input-group-addon"><i className="fa fa-pencil"></i></span>
-                      <textarea className="form-control" id="review" rows="3" placeholder="Enter your Review Here....."></textarea>
-                    </div>
-                  </div>
+                <ReviewForm movieId={movie.id} onReviewSubmit={handleReviewSubmit} />
+                <div className="reviews">
+                  <h3>Reviews</h3>
+                  {reviews.length > 0 ? (
+                    reviews.map((review, index) => (
+                      <div key={index} className={`review ${review.sentiment}`}>
+                        <p>{review.review}</p>
+                      </div>
+                    ))
+                  ) : (
+                    <p>No reviews yet. Be the first to write one!</p>
+                  )}
                 </div>
-                <button type="submit" className="btn btn-primary">Submit</button>
               </div>
             </div>
           </div>
