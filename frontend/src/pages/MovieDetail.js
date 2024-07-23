@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import '../styles/styles.css'; // Adjust the path if necessary
 import ReviewForm from '../components/ReviewForm';
+import avatar from '../img1/avatar_bg1.jpg'
  // Import ReviewForm component
 
 const movies = [
@@ -10,7 +11,7 @@ const movies = [
     id: 1,
     title: 'Avatar (2009)',
     description: 'A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.',
-    image: '/images/avatar1.jpg',
+    image: avatar,
     details: {
       summary: 'On the lush alien world of Pandora live the Na\'vi, beings who appear primitive but are highly evolved...',
       rating: 4.0,

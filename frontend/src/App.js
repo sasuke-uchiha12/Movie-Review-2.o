@@ -8,6 +8,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import ReviewPage from './pages/Review';
 import MovieDetail from './pages/MovieDetail';
+import JoinUs from './pages/JoinUs';
 
 // import Review from './pages/Review';
 // import Single from './pages/Single';
@@ -24,6 +25,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/review" element={<ReviewPage/>} />
           <Route path="/movie/:id" element={<MovieDetail />} />
+          <Route path="/joinus" element={<JoinUs />} />
           {/* <Route path="/review" element={<Review />} />
           <Route path="/single" element={<Single />} />
           <Route path="/joinus" element={<JoinUs />} /> */}

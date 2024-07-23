@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMapMarkerAlt, faPhoneAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function Contact() {
   return (
@@ -14,15 +16,18 @@ function Contact() {
               <h2>Contact</h2>
               <ul className="contact-detail">
                 <li>
-                  <img src="images/icon-contact-map.png" alt="#" />
-                  <address><span>cinephile. INC</span> <br />Dubai kurukku sandhu, Dubai</address>
+                  <FontAwesomeIcon icon={faMapMarkerAlt} />
+                  <address>
+                    <span>cinephile. INC</span> <br />
+                    Developer Street, earth - ♾️
+                  </address>
                 </li>
                 <li>
-                  <img src="images/icon-contact-phone.png" alt="" />
+                  <FontAwesomeIcon icon={faPhoneAlt} />
                   <a href="tel:1590912831">+1 590 912 831</a>
                 </li>
                 <li>
-                  <img src="images/icon-contact-message.png" alt="" />
+                  <FontAwesomeIcon icon={faEnvelope} />
                   <a href="mailto: cinephile-team7@cinephile.com">cinephile-team7@cinephile.com</a>
                 </li>
               </ul>
