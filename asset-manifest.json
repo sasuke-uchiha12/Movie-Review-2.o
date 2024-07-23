@@ -1,21 +1,30 @@
 {
   "files": {
     "main.css": "/Movie-Review-2.o/static/css/main.ee87b31e.css",
-    "main.js": "/Movie-Review-2.o/static/js/main.384dac9d.js",
+    "main.js": "/Movie-Review-2.o/static/js/main.35a32490.js",
     "static/js/453.8ab44547.chunk.js": "/Movie-Review-2.o/static/js/453.8ab44547.chunk.js",
+    "static/media/bg1.jpg": "/Movie-Review-2.o/static/media/bg1.752c629f4e1be71d1261.jpg",
     "static/media/bg3.jpg": "/Movie-Review-2.o/static/media/bg3.5921df78ac51b116d845.jpg",
     "static/media/your_name.png": "/Movie-Review-2.o/static/media/your_name.8fac435b1e969687a1a9.png",
+    "static/media/thumb-4.jpg": "/Movie-Review-2.o/static/media/thumb-4.6bf8e02bb7615bce812b.jpg",
+    "static/media/thumb-6.jpg": "/Movie-Review-2.o/static/media/thumb-6.1fe4d77f35f7528e0a36.jpg",
     "static/media/inception.jpg": "/Movie-Review-2.o/static/media/inception.36d0783b958f451a2358.jpg",
+    "static/media/tv.jpeg": "/Movie-Review-2.o/static/media/tv.51f839142eac9eb56cf1.jpeg",
+    "static/media/avatar_bg1.jpg": "/Movie-Review-2.o/static/media/avatar_bg1.e926ab32c07edf007e00.jpg",
+    "static/media/avatar1.jpg": "/Movie-Review-2.o/static/media/avatar1.4f30a46160ead4f76e9e.jpg",
     "static/media/varisu.jpg": "/Movie-Review-2.o/static/media/varisu.ff099a0e7f5e285d8d5b.jpg",
+    "static/media/social_network.jpeg": "/Movie-Review-2.o/static/media/social_network.bb93ebe5e9b2be2c53dd.jpeg",
+    "static/media/thumb-5.jpg": "/Movie-Review-2.o/static/media/thumb-5.885864062f822c13feaa.jpg",
+    "static/media/thumb-3.jpg": "/Movie-Review-2.o/static/media/thumb-3.8ac2976d32e5b3954c46.jpg",
     "static/media/thumb-1.jpg": "/Movie-Review-2.o/static/media/thumb-1.0a40955512cadcca1132.jpg",
     "static/media/thumb-2.jpg": "/Movie-Review-2.o/static/media/thumb-2.c4b7aee392dbc81fcbdf.jpg",
     "index.html": "/Movie-Review-2.o/index.html",
     "main.ee87b31e.css.map": "/Movie-Review-2.o/static/css/main.ee87b31e.css.map",
-    "main.384dac9d.js.map": "/Movie-Review-2.o/static/js/main.384dac9d.js.map",
+    "main.35a32490.js.map": "/Movie-Review-2.o/static/js/main.35a32490.js.map",
     "453.8ab44547.chunk.js.map": "/Movie-Review-2.o/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee87b31e.css",
-    "static/js/main.384dac9d.js"
+    "static/js/main.35a32490.js"
   ]
 }
