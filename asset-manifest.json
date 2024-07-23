@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Movie-Review-2.o/static/css/main.ee87b31e.css",
-    "main.js": "/Movie-Review-2.o/static/js/main.35a32490.js",
+    "main.css": "/Movie-Review-2.o/static/css/main.4f87f841.css",
+    "main.js": "/Movie-Review-2.o/static/js/main.66cacde1.js",
     "static/js/453.8ab44547.chunk.js": "/Movie-Review-2.o/static/js/453.8ab44547.chunk.js",
     "static/media/bg1.jpg": "/Movie-Review-2.o/static/media/bg1.752c629f4e1be71d1261.jpg",
     "static/media/bg3.jpg": "/Movie-Review-2.o/static/media/bg3.5921df78ac51b116d845.jpg",
@@ -19,12 +19,12 @@
     "static/media/thumb-1.jpg": "/Movie-Review-2.o/static/media/thumb-1.0a40955512cadcca1132.jpg",
     "static/media/thumb-2.jpg": "/Movie-Review-2.o/static/media/thumb-2.c4b7aee392dbc81fcbdf.jpg",
     "index.html": "/Movie-Review-2.o/index.html",
-    "main.ee87b31e.css.map": "/Movie-Review-2.o/static/css/main.ee87b31e.css.map",
-    "main.35a32490.js.map": "/Movie-Review-2.o/static/js/main.35a32490.js.map",
+    "main.4f87f841.css.map": "/Movie-Review-2.o/static/css/main.4f87f841.css.map",
+    "main.66cacde1.js.map": "/Movie-Review-2.o/static/js/main.66cacde1.js.map",
     "453.8ab44547.chunk.js.map": "/Movie-Review-2.o/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee87b31e.css",
-    "static/js/main.35a32490.js"
+    "static/css/main.4f87f841.css",
+    "static/js/main.66cacde1.js"
   ]
 }
