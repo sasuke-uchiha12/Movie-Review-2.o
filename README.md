@@ -2,7 +2,7 @@
 
 Welcome to the Movie Review 2.0 project! This project is a web application for reviewing movies, featuring sentiment analysis on user comments and reviews.
 
-#### You can view the live project [here](https://sasuke-uchiha12.github.io/Movie-Review-2.o/)
+**[View the live project here!](https://sasuke-uchiha12.github.io/Movie-Review-2.o/)**
 
 ## Table of Contents
 
