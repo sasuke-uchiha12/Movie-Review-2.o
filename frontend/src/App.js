@@ -10,25 +10,18 @@ import ReviewPage from './pages/Review';
 import MovieDetail from './pages/MovieDetail';
 import JoinUs from './pages/JoinUs';
 
-// import Review from './pages/Review';
-// import Single from './pages/Single';
-// import JoinUs from './pages/JoinUs';
-
 function App() {
   return (
-    <Router>
+    <Router basename="/Movie-Review-2.o">
       <div id="site-content">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/review" element={<ReviewPage/>} />
+          <Route path="/review" element={<ReviewPage />} />
           <Route path="/movie/:id" element={<MovieDetail />} />
           <Route path="/joinus" element={<JoinUs />} />
-          {/* <Route path="/review" element={<Review />} />
-          <Route path="/single" element={<Single />} />
-          <Route path="/joinus" element={<JoinUs />} /> */}
         </Routes>
         <Footer />
       </div>
